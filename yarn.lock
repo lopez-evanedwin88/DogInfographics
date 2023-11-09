@@ -1774,7 +1774,11 @@
   "resolved" "https://registry.npmjs.org/@mui/core-downloads-tracker/-/core-downloads-tracker-5.14.17.tgz"
   "version" "5.14.17"
 
+<<<<<<< HEAD
 "@mui/material@^5.0.1", "@mui/material@^5.14.17":
+=======
+"@mui/material@^5.14.17":
+>>>>>>> origin/master
   "integrity" "sha512-+y0VeOLWfEA4Z98We/UH6KCo8+f2HLZDK45FY+sJf8kSojLy3VntadKtC/u0itqnXXb1Pr4wKB2tSIBW02zY4Q=="
   "resolved" "https://registry.npmjs.org/@mui/material/-/material-5.14.17.tgz"
   "version" "5.14.17"
@@ -6654,11 +6658,14 @@
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   "version" "2.1.2"
 
+<<<<<<< HEAD
 "mui-image@^1.0.7":
   "integrity" "sha512-U79TWMKMfMC1ZiGnv/M+SaVJeUpubEjXOdy7w53RsvidUAMZ+4nW+QmDG9yg5fgWeYy6YJgLHyI9BHSDw76iIg=="
   "resolved" "https://registry.npmjs.org/mui-image/-/mui-image-1.0.7.tgz"
   "version" "1.0.7"
 
+=======
+>>>>>>> origin/master
 "multicast-dns@^7.2.5":
   "integrity" "sha512-2eznPJP8z2BFLX50tf0LuODrpINqP1RVIm/CObbTcBRITQgmC/TjcREF1NeTBzIcR5XO/ukWo+YHOjBbFwIupg=="
   "resolved" "https://registry.npmjs.org/multicast-dns/-/multicast-dns-7.2.5.tgz"
@@ -7699,7 +7706,11 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
+<<<<<<< HEAD
 "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
+=======
+"prop-types@^15.6.2", "prop-types@^15.8.1":
+>>>>>>> origin/master
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -7927,7 +7938,11 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
+<<<<<<< HEAD
 "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.6.0", "react@>=16.8.0", "react@18.2.0":
+=======
+"react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.6.0", "react@>=16.8.0", "react@18.2.0":
+>>>>>>> origin/master
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

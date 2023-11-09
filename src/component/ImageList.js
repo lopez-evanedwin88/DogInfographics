@@ -1,15 +1,9 @@
 import React from "react";
-import {
-  ImageList,
-  ImageListItem,
-  ImageListItemBar,
-  Paper,
-} from "@mui/material";
+import { ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 import Image from "mui-image";
 import defaultLogo from "../assets/default_dog.png";
 
 export default function CImageList({ breeds = [] }) {
-  console.log("dongski", breeds);
   return (
     <div style={style.wrapper}>
       <ImageList>
