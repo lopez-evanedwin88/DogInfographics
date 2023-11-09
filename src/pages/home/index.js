@@ -3,6 +3,7 @@ import "./styles.css";
 import Search from "../../component/Search";
 import CImageList from "../../component/ImageList";
 import { getBreeds } from "../../service/Dog";
+import { Alert } from "@mui/material";
 
 export default function Home() {
   const [breeds, setBreeds] = useState([]);
@@ -13,11 +14,15 @@ export default function Home() {
       const data = await getBreeds(searched);
       setBreeds(data);
     };
-    fetchData().catch(console.error);
+    fetchData().catch(
+      <Alert severity="info">
+        Opps! Something went wrong. Try again later
+      </Alert>,
+    );
   }, [searched]);
 
   return (
-    <div className="Test">
+    <div className="wrapper">
       <h1>🐶 Dog ℹnfographics 🐾</h1>
       <Search
         onChange={(e) => {

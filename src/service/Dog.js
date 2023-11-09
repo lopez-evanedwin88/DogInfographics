@@ -31,7 +31,7 @@ export const getBreeds = async (name = "", page = 0) => {
 
     return data;
   } catch (error) {
-    return console.log(error);
+    return error;
   }
 };
 
@@ -54,6 +54,6 @@ const getDogImage = async (referenceImageUrl = "") => {
     const data = await response.json();
     return data.url;
   } catch (error) {
-    return console.log(error);
+    return error;
   }
 };
