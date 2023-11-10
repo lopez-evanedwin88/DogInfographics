@@ -5,7 +5,7 @@ import defaultLogo from "../assets/default_dog.png";
 
 export default function CImageList({ breeds = [] }) {
   return (
-    <div style={style.wrapper}>
+    <div style={style.wrapper} data-testid={"imgListC"}>
       <ImageList>
         <ImageListItem key="Subheader" cols={2}></ImageListItem>
         {breeds.length > 0 &&
@@ -16,6 +16,7 @@ export default function CImageList({ breeds = [] }) {
                   ? item.image.url
                   : process.env.REACT_APP_BASE_API_HOST
               }
+              data-testid={"dogImg"}
             >
               <Image
                 src={
@@ -23,6 +24,7 @@ export default function CImageList({ breeds = [] }) {
                     ? `${item.image.url}?w=248&fit=crop&auto=format`
                     : defaultLogo
                 }
+                data-testid={item.image ? "dogUrl" : "dogDefault"}
                 fit="cover"
                 duration={200}
                 easing="cubic-bezier(0.7, 0, 0.6, 1)"

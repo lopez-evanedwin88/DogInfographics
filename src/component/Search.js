@@ -4,8 +4,9 @@ import { runAfter } from "../util/RunAfter";
 export default function Search({ onChange }) {
   return (
     <div style={style.wrapper}>
-      <div className="search">
+      <div className="search" data-testid={"searchC"}>
         <TextField
+          data-testid="search-text-field"
           id="outlined-basic"
           variant="outlined"
           fullWidth
