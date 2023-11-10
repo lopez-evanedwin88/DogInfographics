@@ -44,6 +44,8 @@ const dummyBreeds = [
   },
 ];
 
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 describe("DogInfo", () => {
   //
   it("Check if search and image list component are successfully loaded", () => {
@@ -93,6 +95,7 @@ describe("DogInfo", () => {
 
     fireEvent.change(field, { target: { value: "hound" } });
 
-    
+    delay(1000);
+    expect(mockDebounce).toHaveBeenCalled();
   });
 });
